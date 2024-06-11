@@ -1,0 +1,26 @@
+@import '../../styles/themes';
+
+.container {
+  background-color: $lilac-100;
+  border: 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1.5rem 5.4rem;
+  transition: all 0.5s ease-out;
+  
+  .container__title {
+    color: $black-100;
+    font-size: 2.0rem;
+    line-height: 0.65rem;
+    transition: all 0.5s ease-out;
+  }
+  
+  &:hover {
+    background-color: $lilac-200;
+
+    .container__title {
+      color: $white-100;
+    }
+  }
+
+}
