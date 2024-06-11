@@ -1,0 +1,56 @@
+@import '../../styles/themes';
+
+.contentBox {
+  background: $black-100;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.0rem;
+}
+
+.contentBox__cornerArts {
+  z-index: 1;
+  position: fixed;
+
+  .CornerSupLeft {
+    position: fixed;
+    top: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerSupRight {
+    position: fixed;
+    top: 1.0rem;
+    right: 1.0rem;
+  }
+  .CornerInfLeft {
+    position: fixed;
+    bottom: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerInfRight {
+    position: fixed;
+    bottom: 1.0rem;
+    right: 1.0rem;
+  }
+
+
+}
+
+.contentBox__welcomeMessage {
+  color: $lilac-200;
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  text-align: center;
+  line-height: 2.8rem;
+  max-width: 20.0rem;
+  }
+  
+  .contentBox__15thBirth {
+    color: $lilac-200;
+    font-family: "Playfair Display", serif;
+    font-size: 6.4rem;
+    line-height: 5.5rem;
+  }

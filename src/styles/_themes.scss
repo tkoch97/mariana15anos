@@ -1,0 +1,20 @@
+// _color-palete
+
+$white-100: #fff;
+$white-200: #E1E1E6;
+
+$lilac-100: #761899;
+$lilac-200: #A00BD7;
+$lilac-gradient: linear-gradient(to right, #B967D8, #A83AD1);
+
+$black-100: #000;
+$black-200: #060C1F;
+
+
+$DEVICE_BREAKPOINTS: (
+  XS: 320px,
+  SM: 425px,
+  MD: 912px,
+  LG: 1023px,
+  XL: 1280px
+)
