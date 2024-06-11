@@ -4,7 +4,7 @@ import { Welcome } from "../pages/Welcome";
 import { Invitation } from "../pages/Invitation";
 import { Pix } from "../pages/Pix";
 
-export function SwitchBetweenRoutes() {
+export function RoutesForApplication() {
   return (
     <Routes>
       <Route path="/" element={<Welcome/>}/>
