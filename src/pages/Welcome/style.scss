@@ -11,9 +11,8 @@
   padding: 1.0rem;
 }
 
-.contentBox__cornerArts {
-  z-index: 1;
-  position: fixed;
+.contentBox__cornerSupArts {
+  // position: fixed;
 
   .CornerSupLeft {
     position: fixed;
@@ -25,6 +24,12 @@
     top: 1.0rem;
     right: 1.0rem;
   }
+  
+}
+
+.contentBox__cornerInfArts {
+  // position: fixed;
+
   .CornerInfLeft {
     position: fixed;
     bottom: 1.0rem;
@@ -35,7 +40,6 @@
     bottom: 1.0rem;
     right: 1.0rem;
   }
-
 
 }
 
