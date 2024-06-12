@@ -12,22 +12,26 @@ export function Welcome() {
   return (
     <>
       <main className='contentBox'>
-        <div className="contentBox__cornerSupArts">
-          <img className='CornerSupLeft' src={CornerArtSupLeft} alt="" />
-          <img className='CornerSupRight' src={CornerArtSupRight} alt="" />
+        
+        <div className="contentBox__container">
+          <div className="contentBox__cornerSupArts">
+            <img className='CornerSupLeft' src={CornerArtSupLeft} alt="" />
+            <img className='CornerSupRight' src={CornerArtSupRight} alt="" />
+          </div>
+          <h1 className='contentBox__welcomeMessage'>Bem-vindo(a) ao meu convite!</h1>
+          <MarianaTitle/>
+          <h1 className="contentBox__15thBirth">
+            Faz 15!
+          </h1>
+          <div className="contentBox__ButtonToEnterOnInvitation">
+            <RetangularButton title='Abrir convite'/>
+          </div>
+          <div className="contentBox__cornerInfArts">
+            <img className='CornerInfLeft' src={CornerArtInfLeft} alt="" />
+            <img className='CornerInfRight' src={CornerArtInfRight} alt="" />
+          </div>
         </div>
-        <h1 className='contentBox__welcomeMessage'>Bem-vindo(a) ao meu convite!</h1>
-        <MarianaTitle/>
-        <h1 className="contentBox__15thBirth">
-          Faz 15!
-        </h1>
-        <div className="contentBox__ButtonToEnterOnInvitation">
-          <RetangularButton title='Abrir convite'/>
-        </div>
-        <div className="contentBox__cornerInfArts">
-          <img className='CornerInfLeft' src={CornerArtInfLeft} alt="" />
-          <img className='CornerInfRight' src={CornerArtInfRight} alt="" />
-        </div>
+
       </main>
     </>
   )

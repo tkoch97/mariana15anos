@@ -4,7 +4,9 @@ export function Invitation() {
 
   return (
     <>
-    
+      <div className="contentBox">
+        
+      </div>
     </>
   )
 }
