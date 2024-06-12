@@ -48,17 +48,26 @@
 }
 
 .contentBox__welcomeMessage {
-  color: $lilac-200;
   font-family: "Playfair Display", serif;
   font-size: 2.7rem;
   text-align: center;
   line-height: 2.8rem;
   max-width: 20.0rem;
+
+  background: $lilac-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   }
   
   .contentBox__15thBirth {
-    color: $lilac-200;
     font-family: "Playfair Display", serif;
     font-size: 6.4rem;
-    line-height: 5.5rem;
+    line-height: 7.0rem;
+    background: $lilac-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
   }
