@@ -12,9 +12,10 @@ $black-200: #060C1F;
 
 
 $DEVICE_BREAKPOINTS: (
-  XS: 320px,
-  SM: 425px,
-  MD: 912px,
-  LG: 1023px,
-  XL: 1280px
+  MOBILE-S: 320px,
+  MOBILE-M: 375px,
+  MOBILE-L: 425px,
+  TABLET: 768px,
+  LAPTOP: 1024px,
+  LAPTOP-L: 1440px,
 )
