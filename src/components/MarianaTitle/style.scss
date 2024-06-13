@@ -16,6 +16,11 @@
   font-size: 6.3rem;
   font-weight: 500;
   line-height: 6.0rem;
+  
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    font-size: 9.9rem;
+    line-height: 9.0rem;
+  }
 }
 
 .content__linesWithStar {
@@ -28,4 +33,8 @@
   background: $lilac-gradient;
   height: 0.2rem;
   width: 10.7rem;
+
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    width: 18.6rem;
+  }
 }
