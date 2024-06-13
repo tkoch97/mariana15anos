@@ -6,8 +6,11 @@ import CornerArtSupRight from '../../assets/corner-art-sup-right.svg';
 import CornerArtInfLeft from '../../assets/corner-art-inf-left.svg';
 import CornerArtInfRight from '../../assets/corner-art-inf-right.svg';
 import { RetangularButton } from '../../components/RetangularButton';
+import { useNavigate } from 'react-router-dom';
 
 export function Welcome() {
+
+  const navigate = useNavigate();
 
   return (
     <>
@@ -24,7 +27,7 @@ export function Welcome() {
             Faz 15!
           </h1>
           <div className="contentBox__ButtonToEnterOnInvitation">
-            <RetangularButton title='Abrir convite'/>
+            <RetangularButton title='Abrir convite' onClick={() => navigate(`/invitation`)}/>
           </div>
           <div className="contentBox__cornerInfArts">
             <img className='CornerInfLeft' src={CornerArtInfLeft} alt="" />

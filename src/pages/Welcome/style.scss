@@ -53,21 +53,39 @@
   text-align: center;
   line-height: 2.8rem;
   max-width: 20.0rem;
-
+  
   background: $lilac-gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    font-size: 3.2rem;
+    max-width: 45.0rem;
+  }
+  
   }
   
   .contentBox__15thBirth {
     font-family: "Playfair Display", serif;
     font-size: 6.4rem;
     line-height: 7.0rem;
+    text-align: center;
+    max-width: 11.9rem;
     background: $lilac-gradient;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-  }
+    
+    @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+      font-size: 7.2rem;
+      max-width: 11.9rem;
+      line-height: 8.0rem;
+    }
+}
+
+.contentBox__ButtonToEnterOnInvitation {
+  z-index: 1;
+}

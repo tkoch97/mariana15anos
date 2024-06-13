@@ -2,7 +2,7 @@ import './style.scss';
 
 export function RetangularButton(props) {
 
-  const {title, link, ...rest} = props;
+  const {title, ...rest} = props;
 
   return(
     <>
