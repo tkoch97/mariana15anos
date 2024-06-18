@@ -1,12 +1,12 @@
 @import '../../styles/themes';
 
-.content {
+.marianaTitleContent {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.content__text {
+.marianaTitleContent__text {
   background: $lilac-gradient;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -23,7 +23,7 @@
   }
 }
 
-.content__linesWithStar {
+.marianaTitleContent__linesWithStar {
   display: flex;
   align-items: center;
   gap: 0.5rem;

@@ -1,0 +1,38 @@
+@import '../../styles/themes';
+
+.birthInformationsContent {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-color: $black-100;
+}
+
+.birthInformationsContent__cornerSupArts {
+
+  .CornerSupLeft {
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerSupRight {
+    position: absolute;
+    top: 1.0rem;
+    right: 1.0rem;
+  }
+  
+}
+
+.birthInformationsContent__cornerInfArts {
+
+  .CornerInfLeft {
+    position: absolute;
+    bottom: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerInfRight {
+    position: absolute;
+    bottom: 1.0rem;
+    right: 1.0rem;
+  }
+
+}

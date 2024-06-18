@@ -1,5 +1,6 @@
 import './style.scss'
 import MarianaPhoto from '../../assets/mariana-photo-with-stars.png'
+import { BirthInformations } from '../../components/BirthInformations'
 
 export function Invitation() {
 
@@ -16,7 +17,7 @@ export function Invitation() {
             com gliter de diferentes tamanhos." />
           </div>
           <div className="invitationContentBox__informationSection">
-
+            <BirthInformations/>
           </div>
 
         </div>

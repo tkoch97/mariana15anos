@@ -4,10 +4,10 @@ export function MarianaTitle() {
 
   return(
     <>
-      <div className="content">
-        <p className="content__text">Mariana</p>
+      <div className="marianaTitleContent">
+        <p className="marianaTitleContent__text">Mariana</p>
 
-        <div className="content__linesWithStar">
+        <div className="marianaTitleContent__linesWithStar">
           <div className="line1"></div>
           <div className="star">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
