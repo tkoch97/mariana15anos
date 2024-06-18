@@ -14,22 +14,22 @@ export function Welcome() {
 
   return (
     <>
-      <main className='contentBox'>
+      <main className='welcomeContentBox'>
         
-        <div className="contentBox__container">
-          <div className="contentBox__cornerSupArts">
+        <div className="welcomeContentBox__container">
+          <div className="welcomeContentBox__cornerSupArts">
             <img className='CornerSupLeft' src={CornerArtSupLeft} alt="" />
             <img className='CornerSupRight' src={CornerArtSupRight} alt="" />
           </div>
-          <h1 className='contentBox__welcomeMessage'>Bem-vindo(a) ao meu convite!</h1>
+          <h1 className='welcomeContentBox__welcomeMessage'>Bem-vindo(a) ao meu convite!</h1>
           <MarianaTitle/>
-          <h1 className="contentBox__15thBirth">
+          <h1 className="welcomeContentBox__15thBirth">
             Faz 15!
           </h1>
-          <div className="contentBox__ButtonToEnterOnInvitation">
+          <div className="welcomeContentBox__ButtonToEnterOnInvitation">
             <RetangularButton title='Abrir convite' onClick={() => navigate(`/invitation`)}/>
           </div>
-          <div className="contentBox__cornerInfArts">
+          <div className="welcomeContentBox__cornerInfArts">
             <img className='CornerInfLeft' src={CornerArtInfLeft} alt="" />
             <img className='CornerInfRight' src={CornerArtInfRight} alt="" />
           </div>

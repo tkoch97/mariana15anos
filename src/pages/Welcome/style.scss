@@ -1,14 +1,13 @@
 @import '../../styles/themes';
 
-.contentBox {
+.welcomeContentBox {
   background: $black-100;
   width: 100vw;
   height: 100vh;
-  padding: 1.0rem;
   overflow-y: hidden;
 }
 
-.contentBox__container {
+.welcomeContentBox__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +16,7 @@
   position: relative;
 }
 
-.contentBox__cornerSupArts {
+.welcomeContentBox__cornerSupArts {
 
   .CornerSupLeft {
     position: absolute;
@@ -32,7 +31,7 @@
   
 }
 
-.contentBox__cornerInfArts {
+.welcomeContentBox__cornerInfArts {
 
   .CornerInfLeft {
     position: absolute;
@@ -47,7 +46,7 @@
 
 }
 
-.contentBox__welcomeMessage {
+.welcomeContentBox__welcomeMessage {
   font-family: "Playfair Display", serif;
   font-size: 2.7rem;
   text-align: center;
@@ -67,7 +66,7 @@
   
   }
   
-  .contentBox__15thBirth {
+  .welcomeContentBox__15thBirth {
     font-family: "Playfair Display", serif;
     font-size: 6.4rem;
     line-height: 7.0rem;
@@ -86,6 +85,6 @@
     }
 }
 
-.contentBox__ButtonToEnterOnInvitation {
+.welcomeContentBox__ButtonToEnterOnInvitation {
   z-index: 1;
 }
