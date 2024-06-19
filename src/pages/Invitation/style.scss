@@ -19,6 +19,8 @@
     height: 100%;
     width: 70.0rem;
     overflow: hidden;
+    gap: 3.0rem;
+    margin-top: 2.0rem;
   }
 
 }
@@ -57,7 +59,7 @@
   
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
     width: 50%;
-    max-height: 50.0rem;
+    max-height: 51.0rem;
   }
 }
 
