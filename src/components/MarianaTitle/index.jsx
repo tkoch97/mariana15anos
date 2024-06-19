@@ -1,10 +1,12 @@
 import './style.scss';
 
-export function MarianaTitle() {
+export function MarianaTitle(props) {
+
+  const {...rest} = props;
 
   return(
     <>
-      <div className="marianaTitleContent">
+        <div className="marianaTitleContent" {...rest}>
         <p className="marianaTitleContent__text">Mariana</p>
 
         <div className="marianaTitleContent__linesWithStar">

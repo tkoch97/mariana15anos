@@ -4,6 +4,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &--onInvitation {
+    .marianaTitleContent__text {
+      background: $lilac-gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-family: "Playfair Display", serif;
+      font-size: 6.3rem;
+      font-weight: 500;
+      line-height: 6.0rem;
+      text-align: center;
+    }
+
+    .line1, .line2 {
+      background: $lilac-gradient;
+      height: 0.2rem;
+      width: 10.7rem;
+    
+      @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+        width: 11.6rem;
+      }
+    }
+
+
+  }
 }
 
 .marianaTitleContent__text {
