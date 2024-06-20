@@ -1,14 +1,21 @@
 @import '../../styles/themes';
+@import '../../styles/animations.scss';
 
 .birthInformationsContent {
  position: relative;
  width: 100%;
  height: 100%;
  background-color: $black-100;
- display: flex;
- flex-direction: column;
- justify-content: space-around;
- align-items: center;
+}
+
+.birthInformationsContent__main {
+  animation: downtop 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 2.0rem 0rem;
 }
 
 .birthInformationsContent__cornerSupArts {
@@ -23,11 +30,13 @@
     top: 1.0rem;
     right: 1.0rem;
   }
+
+  animation: appear 1s  1s ease-in-out backwards;
   
 }
 
 .birthInformationsContent__cornerInfArts {
-
+  
   .CornerInfLeft {
     position: absolute;
     bottom: 1.0rem;
@@ -38,7 +47,9 @@
     bottom: 1.0rem;
     right: 1.0rem;
   }
-
+  
+  animation: appear 1s  1s ease-in-out backwards;
+  
 }
 
 .birthInformationsContent__dateAndHour {

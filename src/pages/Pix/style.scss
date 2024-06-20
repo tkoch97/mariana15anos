@@ -106,6 +106,9 @@
     top: 1.0rem;
     right: 1.0rem;
   }
+
+  animation: appear 1s  .5s ease-in-out backwards;
+
   
 }
 
@@ -121,5 +124,7 @@
     bottom: 1.0rem;
     right: 1.0rem;
   }
+
+  animation: appear 1s  .5s ease-in-out backwards;
 
 }

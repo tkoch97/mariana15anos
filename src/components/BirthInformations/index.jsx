@@ -18,44 +18,49 @@ export function BirthInformations() {
         <img className='CornerSupRight' src={CornerArtSupRight} alt="adorno de canto superior direito" />
       </div>
 
-      <div className="birthInformationsContent__dateAndHour">
-        <p className="date">31.08.2024</p>
-        <p className="dayAndHour">
-          Sábado as 18h
+      <div className="birthInformationsContent__main">
+
+        <div className="birthInformationsContent__dateAndHour">
+          <p className="date">31.08.2024</p>
+          <p className="dayAndHour">
+            Sábado as 18h
+          </p>
+        </div>
+
+        <MarianaTitle className="marianaTitleContent--onInvitation"/>
+
+        <p className="birthInformationsContent__InvitionPhrase">
+          Convido você para comemorar comigo esse dia único e inesquecível!
         </p>
+
+        <p className="birthInformationsContent__partyAddress">
+          Sítio N.S. de Fátima,<br/> Rua Mal Deodoro, lt 04, Qdra 01 - Parque Equitativa,<br/> Duque de Caxias
+        </p>
+
+        <p className="birthInformationsContent__dresscode">
+          Traje: esporte fino.
+        </p>
+
+        <div className="birthInformationsContent__actionButtons">
+          <RoundedButton 
+            image={PinIcon} 
+            subtitle='Abrir local no mapa'
+            externalLink='https://maps.app.goo.gl/q2hLQf12PeUkfK9KA'
+          />
+          <RoundedButton 
+            image={ConfirmPresenceIcon} 
+            subtitle='Confirmar presença'
+            externalLink='https://w.app/RIvViW'
+          />
+          <RoundedButton 
+          image={BagCoinIcon} 
+          subtitle='Meu presente ideal: um Pix!'
+          internalLink='/pix'
+          />
+        </div>
+
       </div>
 
-      <MarianaTitle className="marianaTitleContent--onInvitation"/>
-
-      <p className="birthInformationsContent__InvitionPhrase">
-        Convido você para comemorar comigo esse dia único e inesquecível!
-      </p>
-
-      <p className="birthInformationsContent__partyAddress">
-        Sítio N.S. de Fátima,<br/> Rua Mal Deodoro, lt 04, Qdra 01 - Parque Equitativa,<br/> Duque de Caxias
-      </p>
-
-      <p className="birthInformationsContent__dresscode">
-        Traje: esporte fino.
-      </p>
-
-      <div className="birthInformationsContent__actionButtons">
-        <RoundedButton 
-          image={PinIcon} 
-          subtitle='Abrir local no mapa'
-          externalLink='https://maps.app.goo.gl/q2hLQf12PeUkfK9KA'
-        />
-        <RoundedButton 
-          image={ConfirmPresenceIcon} 
-          subtitle='Confirmar presença'
-          externalLink='https://w.app/RIvViW'
-        />
-        <RoundedButton 
-        image={BagCoinIcon} 
-        subtitle='Meu presente ideal: um Pix!'
-        internalLink='/pix'
-        />
-      </div>
 
 
       <div className="birthInformationsContent__cornerInfArts">
