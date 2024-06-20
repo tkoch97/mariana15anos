@@ -1,6 +1,10 @@
 import './style.scss'
 import MarianaPhoto from '../../assets/mariana-photo-with-stars.png'
 import { BirthInformations } from '../../components/BirthInformations'
+import { RoundedButton } from '../../components/RoundedButton';
+import PinIcon from '../../assets/pinIcon.svg';
+import ConfirmPresenceIcon from '../../assets/confirmPresenceIcon.svg';
+import BagCoinIcon from '../../assets/bagCoinIcon.svg';
 
 export function Invitation() {
 
@@ -23,7 +27,21 @@ export function Invitation() {
         </div>
 
         <div className="invitationContentBox__actionButtons">
-
+          <RoundedButton 
+            image={PinIcon} 
+            subtitle='Abrir local no mapa'
+            externalLink='https://maps.app.goo.gl/q2hLQf12PeUkfK9KA'
+          />
+          <RoundedButton 
+            image={ConfirmPresenceIcon} 
+            subtitle='Confirmar presença'
+            externalLink='https://w.app/RIvViW'
+          />
+          <RoundedButton 
+            image={BagCoinIcon} 
+            subtitle='Meu presente ideal: um Pix!'
+            internalLink='/pix'
+          />
         </div>
       </div>
     </>
