@@ -3,7 +3,11 @@ import CornerArtSupLeft from '../../assets/corner-art-sup-left.svg';
 import CornerArtSupRight from '../../assets/corner-art-sup-right.svg';
 import CornerArtInfLeft from '../../assets/corner-art-inf-left.svg';
 import CornerArtInfRight from '../../assets/corner-art-inf-right.svg';
+import PinIcon from '../../assets/pinIcon.svg';
+import ConfirmPresenceIcon from '../../assets/confirmPresenceIcon.svg';
+import BagCoinIcon from '../../assets/bagCoinIcon.svg';
 import {MarianaTitle} from '../MarianaTitle';
+import { RoundedButton } from '../RoundedButton';
 
 export function BirthInformations() {
 
@@ -34,6 +38,24 @@ export function BirthInformations() {
       <p className="birthInformationsContent__dresscode">
         Traje: esporte fino.
       </p>
+
+      <div className="birthInformationsContent__actionButtons">
+        <RoundedButton 
+          image={PinIcon} 
+          subtitle='Abrir local no mapa'
+          externalLink='https://maps.app.goo.gl/q2hLQf12PeUkfK9KA'
+        />
+        <RoundedButton 
+          image={ConfirmPresenceIcon} 
+          subtitle='Confirmar presença'
+          externalLink='https://w.app/RIvViW'
+        />
+        <RoundedButton 
+        image={BagCoinIcon} 
+        subtitle='Meu presente ideal: um Pix!'
+        internalLink='/pix'
+        />
+      </div>
 
 
       <div className="birthInformationsContent__cornerInfArts">

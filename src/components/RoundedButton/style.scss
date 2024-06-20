@@ -1,0 +1,36 @@
+@import '../../styles/themes';
+
+.roundedButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .4rem;
+  z-index: 1;
+
+  &:hover {
+    .roundedButtonContainer__circle {
+      background: $lilac-200;
+      cursor: pointer;
+    }
+  }
+}
+
+.roundedButtonContainer__circle {
+  background: $lilac-100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.0rem;
+  border-radius: 50%;
+  max-width: 6.0rem;
+  transition: all 0.5s ease-out;
+
+}
+
+.roundedButtonContainer__subtitle {
+  color: $white-100;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  max-width: 7.8rem;
+}
