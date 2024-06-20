@@ -1,1 +1,118 @@
 
+@import '../../styles/themes';
+
+.pixContentBox {
+  background: $black-100;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pixContentBox__thankMessage {
+  color: $white-100;
+  font-family: "Playfair Display", serif;
+  font-size: 2.7rem;
+  line-height: 2.8rem;
+  text-align: center;
+  font-weight: 500;
+  max-width: 24.0rem;
+  
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    max-width: 50.0rem;
+    font-size: 3.0rem;
+  }
+}
+
+.pixContentBox__instructionMessage {
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: $white-200;
+  max-width: 24.0rem;
+  
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    font-size: 2.5rem;
+    max-width: 37.0rem;
+    line-height: 3.0rem;
+  }
+}
+
+.pixContentBox__qrCodeAndPixKey {
+
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    display: flex;
+    flex-direction: row;
+    gap: 7.0rem;
+  }
+}
+
+.pixContentBox__pixKeyInformations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .keyTitle {
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: $white-200;
+    margin-bottom: 1.3rem;
+    margin-top: 2.0rem;
+  }
+  
+  .pixKey {
+    font-size: 2.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: $white-200;
+    margin-bottom: 2.0rem;
+  }
+  
+  .nameOfAccountHolder, .bankName {
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: $white-200;
+    margin-top: .5rem;
+  }
+}
+
+.pixContentBox__backButton {
+  max-width: 30.0rem;
+  z-index: 1;
+}
+
+
+
+.pixContentBox__cornerSupArts {
+
+  .CornerSupLeft {
+    position: absolute;
+    top: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerSupRight {
+    position: absolute;
+    top: 1.0rem;
+    right: 1.0rem;
+  }
+  
+}
+
+.pixContentBox__cornerInfArts {
+
+  .CornerInfLeft {
+    position: absolute;
+    bottom: 1.0rem;
+    left: 1.0rem;
+  }
+  .CornerInfRight {
+    position: absolute;
+    bottom: 1.0rem;
+    right: 1.0rem;
+  }
+
+}
