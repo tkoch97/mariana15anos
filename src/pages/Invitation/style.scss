@@ -61,8 +61,7 @@
 .invitationContentBox__informationSection {
   width: 100%;
   height: 67.0rem;
-  animation: downtop 2s;
-  
+
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
     width: 50%;
     max-height: 51.0rem;
