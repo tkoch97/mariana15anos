@@ -1,5 +1,6 @@
 
 @import '../../styles/themes';
+@import '../../styles/animations.scss';
 
 .pixContentBox {
   background: $black-100;
@@ -14,6 +15,7 @@
   height: 100%;
   justify-content: space-around;
   position: relative;
+  animation: topdown 1s;
 }
 
 .pixContentBox__thankMessage {

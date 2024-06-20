@@ -1,4 +1,5 @@
 @import '../../styles/themes';
+@import '../../styles/animations.scss';
 
 .welcomeContentBox {
   background: $black-100;
@@ -14,6 +15,7 @@
   justify-content: space-between;
   height: 100%;
   position: relative;
+  animation: topdown 1s;
 }
 
 .welcomeContentBox__cornerSupArts {
