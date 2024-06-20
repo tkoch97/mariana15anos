@@ -34,7 +34,7 @@ export function BirthInformations() {
         </p>
 
         <p className="birthInformationsContent__partyAddress">
-          Sítio N.S. de Fátima,<br/> Rua Mal Deodoro, lt 04, Qdra 01 - Parque Equitativa,<br/> Duque de Caxias
+          Sítio N.S. de Fátima,<br/> Rua Mal Deodoro, lt 04, Quadra 01 - Parque Equitativa,<br/> Duque de Caxias
         </p>
 
         <p className="birthInformationsContent__dresscode">
