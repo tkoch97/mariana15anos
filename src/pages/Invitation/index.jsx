@@ -5,8 +5,13 @@ import { RoundedButton } from '../../components/RoundedButton';
 import PinIcon from '../../assets/pinIcon.svg';
 import ConfirmPresenceIcon from '../../assets/confirmPresenceIcon.svg';
 import BagCoinIcon from '../../assets/bagCoinIcon.svg';
+import { useEffect } from 'react';
 
 export function Invitation() {
+
+  useEffect( () => {
+    window.scrollTo(0, 0);
+  }, [] )
 
   return (
     <>

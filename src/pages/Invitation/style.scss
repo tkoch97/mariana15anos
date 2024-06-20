@@ -1,4 +1,5 @@
 @import '../../styles/themes';
+@import '../../styles/animations.scss';
 
 .invitationContentBox {
   background: $black-100;
@@ -36,6 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: topdown 2s;
 
   @media(min-width: map-get($DEVICE_BREAKPOINTS, MOBILE-M)){
     height: 55.0rem;
@@ -59,6 +61,7 @@
 .invitationContentBox__informationSection {
   width: 100%;
   height: 67.0rem;
+  animation: downtop 2s;
   
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
     width: 50%;
@@ -68,6 +71,7 @@
 
 .invitationContentBox__actionButtons {
   display: none;
+  animation: appear 1s  1s ease-in-out backwards;
   
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
     display: flex;
