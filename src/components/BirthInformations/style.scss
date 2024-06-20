@@ -49,7 +49,7 @@
   }
   
   animation: appear 1s  1s ease-in-out backwards;
-  
+
 }
 
 .birthInformationsContent__dateAndHour {
@@ -102,18 +102,18 @@ p {
   font-size: 1.8rem;
   line-height: 2.1rem;
   text-align: center;
-  width: 25.0rem;
+  max-width: 26.0rem;
   
   @media(min-width: map-get($DEVICE_BREAKPOINTS, MOBILE-L)){
     font-size: 2.2rem;
-    width: 30.0rem;
+    max-width: 32.0rem;
     line-height: 2.5rem;
   }
   
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
     font-size: 1.5rem;
     line-height: 1.8rem;
-    width: 25.0rem;
+    max-width: 25.0rem;
   }
 }
 
