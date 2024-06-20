@@ -18,8 +18,8 @@ export function Welcome() {
         
         <div className="welcomeContentBox__container">
           <div className="welcomeContentBox__cornerSupArts">
-            <img className='CornerSupLeft' src={CornerArtSupLeft} alt="" />
-            <img className='CornerSupRight' src={CornerArtSupRight} alt="" />
+            <img className='CornerSupLeft' src={CornerArtSupLeft} alt="adorno de canto superior esquerdo" />
+            <img className='CornerSupRight' src={CornerArtSupRight} alt="adorno de canto superior direito" />
           </div>
           <h1 className='welcomeContentBox__welcomeMessage'>Bem-vindo(a) ao meu convite!</h1>
           <MarianaTitle/>
@@ -30,8 +30,8 @@ export function Welcome() {
             <RetangularButton title='Abrir convite' onClick={() => navigate(`/invitation`)}/>
           </div>
           <div className="welcomeContentBox__cornerInfArts">
-            <img className='CornerInfLeft' src={CornerArtInfLeft} alt="" />
-            <img className='CornerInfRight' src={CornerArtInfRight} alt="" />
+            <img className='CornerInfLeft' src={CornerArtInfLeft} alt="adorno de canto inferior esquerdo" />
+            <img className='CornerInfRight' src={CornerArtInfRight} alt="adorno de canto inferior direito" />
           </div>
         </div>
 
