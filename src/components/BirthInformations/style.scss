@@ -98,9 +98,10 @@ p {
     width: 30.0rem;
     line-height: 2.5rem;
   }
-
+  
   @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     width: 25.0rem;
   }
 }
