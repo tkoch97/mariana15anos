@@ -5,10 +5,15 @@
   background: $black-100;
   width: 100vw;
   height: 100vh;
+}
+
+.pixContentBox__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
   justify-content: space-around;
+  position: relative;
 }
 
 .pixContentBox__thankMessage {

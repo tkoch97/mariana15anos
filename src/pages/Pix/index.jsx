@@ -16,36 +16,40 @@ export function Pix() {
 
   return (
     <div className="pixContentBox">
-      <div className="pixContentBox__cornerSupArts">
-        <img className='CornerSupLeft' src={CornerArtSupLeft} alt="adorno de canto superior esquerdo" />
-        <img className='CornerSupRight' src={CornerArtSupRight} alt="adorno de canto superior direito" />
-      </div>
+      <div className="pixContentBox__container">
 
-      <h2 className="pixContentBox__thankMessage">Muito obrigado pelo presente!</h2>
-
-      <p className="pixContentBox__instructionMessage">Escaneie o QR Code ou copie a chave pix</p>
-
-      <div className="pixContentBox__qrCodeAndPixKey">
-        <img src={QRCode} alt="" className="pixContentBox__qrCode" />
-
-        <div className="pixContentBox__pixKeyInformations">
-          <p className="keyTitle">Chave:</p>
-
-          <p className="pixKey">21976274191</p>
-
-          <p className="nameOfAccountHolder">Edilene Rego de Souza</p>
-          <p className="bankName">Banco Itaú</p>
-
+        <div className="pixContentBox__cornerSupArts">
+          <img className='CornerSupLeft' src={CornerArtSupLeft} alt="adorno de canto superior esquerdo" />
+          <img className='CornerSupRight' src={CornerArtSupRight} alt="adorno de canto superior direito" />
         </div>
-      </div>
 
-      <div className="pixContentBox__backButton">
-        <RetangularButton title='Voltar ao convite' onClick={backPage}/>
-      </div>
+        <h2 className="pixContentBox__thankMessage">Muito obrigado pelo presente!</h2>
 
-      <div className="pixContentBox__cornerInfArts">
-        <img className='CornerInfLeft' src={CornerArtInfLeft} alt="adorno de canto inferior esquerdo" />
-        <img className='CornerInfRight' src={CornerArtInfRight} alt="adorno de canto inferior direito" />
+        <p className="pixContentBox__instructionMessage">Escaneie o QR Code ou copie a chave pix</p>
+
+        <div className="pixContentBox__qrCodeAndPixKey">
+          <img src={QRCode} alt="" className="pixContentBox__qrCode" />
+
+          <div className="pixContentBox__pixKeyInformations">
+            <p className="keyTitle">Chave:</p>
+
+            <p className="pixKey">21976274191</p>
+
+            <p className="nameOfAccountHolder">Edilene Rego de Souza</p>
+            <p className="bankName">Banco Itaú</p>
+
+          </div>
+        </div>
+
+        <div className="pixContentBox__backButton">
+          <RetangularButton title='Voltar ao convite' onClick={backPage}/>
+        </div>
+
+        <div className="pixContentBox__cornerInfArts">
+          <img className='CornerInfLeft' src={CornerArtInfLeft} alt="adorno de canto inferior esquerdo" />
+          <img className='CornerInfRight' src={CornerArtInfRight} alt="adorno de canto inferior direito" />
+        </div>
+        
       </div>
     </div>
   )
