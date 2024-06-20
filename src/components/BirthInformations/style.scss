@@ -123,3 +123,18 @@ p {
     margin-bottom: 3.0rem;
   }
 }
+
+.birthInformationsContent__actionButtons {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  margin-bottom: 1.0rem;
+
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, MOBILE-L)){
+    gap: 2.5rem;
+  }
+
+  @media(min-width: map-get($DEVICE_BREAKPOINTS, TABLET)){
+    display: none;
+  }
+}
