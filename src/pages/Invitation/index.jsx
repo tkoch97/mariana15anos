@@ -40,7 +40,7 @@ export function Invitation() {
           <RoundedButton 
             image={ConfirmPresenceIcon} 
             subtitle='Confirmar presença'
-            externalLink='https://w.app/RIvViW'
+            externalLink='https://contate.me/confirmarnivermariana'
           />
           <RoundedButton 
             image={BagCoinIcon} 
